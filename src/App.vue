@@ -25,9 +25,8 @@ const handleSignup = async() => {
         password: userSignupData.value.password,
         options: {
           data: {
-            name: 'Elvin',
-            lastname: 'Kyungu',
-            phone: '0995555480'
+            first_name: 'Elvin',
+            last_name: 'Kyungu',
           },
         },
       })
